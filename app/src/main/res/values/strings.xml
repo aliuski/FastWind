@@ -1,0 +1,31 @@
+<resources>
+    <string name="app_name">FastWind</string>
+    <string name="action_settings">Asetukset</string>
+    <string name="pref_user_profile">Käyttäjän profiili</string>
+    <string name="pref_user_obserstation">Alasvetovalikkoon tulevat sää asemat</string>
+    <string name="pref_user_obserstationinfo">Käytössä olevat sääasemat löytyvät: http://ilmatieteenlaitos.fi/havaintoasemat</string>
+    <string name="download_text">Ennustetta ladataan...</string>
+    <string name="error_download_text">Ennusteen lataus epäonnistui.</string>
+    <string name="action_favorite">Valitse sääasema</string>
+    <string name="station_name">Aseman nimi</string>
+    <string name="fmisid_code">fmisid -koodi</string>
+    <string name="group_name">Ryhmän nimi</string>
+    <string name="forecast_name">Ennuste</string>
+    <string name="removebutton">Poista</string>
+    <string name="savebutton">Talleta</string>
+    <string name="newbutton">Uusi</string>
+    <string name="saved_observation_stations">Talletetut havaintoasemat</string>
+    <string-array name="option_arrays">
+        <item>Mitattu tuuli m/s</item>
+        <item>Mitattu ja ennuste tuuli m/s</item>
+        <item>Ennuste tuuli m/s</item>
+        <item>Mitattu lämpötila °C</item>
+        <item>Ennuste lämpötila °C</item>
+    </string-array>
+    <string name="stationtype_prompt">Mittausaseman tyyppi</string>
+    <string-array name="stationtype_arrays">
+        <item>Fmi</item>
+        <item>WindGuru</item>
+    </string-array>
+    <string name="station_password">Aseman salasana</string>
+</resources>
