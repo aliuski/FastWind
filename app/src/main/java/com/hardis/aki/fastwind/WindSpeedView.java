@@ -645,7 +645,7 @@ public class WindSpeedView extends View {
                     forecast.clear();
                     for (String[] str : weatherplace) {
                         if(str[3].equals("true")) {
-                            forecast.add(new Fmi("http://opendata.fmi.fi/wfs?request=getFeature&storedquery_id=fmi::forecast::hirlam::surface::point::timevaluepair&place="
+                            forecast.add(new Fmi("http://opendata.fmi.fi/wfs?request=getFeature&storedquery_id=fmi::forecast::harmonie::surface::point::timevaluepair&place="
                                     + str[0] + "&parameters=windspeedms,WindDirection,weathersymbol3,temperature"));
                             type = MEASURED_AND_FORECAST_WIND;
                             progressDialog.incrementProgressBy(prosent);
