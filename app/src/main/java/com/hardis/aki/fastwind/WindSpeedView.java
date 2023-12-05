@@ -341,13 +341,13 @@ public class WindSpeedView extends View {
             end_point = weatherdata.get(0).getStep()[weatherdata.get(0).getStep().length-1];
             timestep.setTime(weatherdata.get(0).getStep()[0]);
             int test = timestep.get(Calendar.HOUR_OF_DAY);
-            double d = (double)test / 3.0;
+            double d = (double)test / 4.0;
             int i = (int)d;
-            int b = 3 - (int)((d - (double)i) * 3.0 + 0.1);
-            move = (int)(((double)b/3.0) * kerroin);
+            int b = 4 - (int)((d - (double)i) * 4.0 + 0.1);
+            move = (int)(((double)b/4.0) * kerroin);
             if(b > 0)
                 timestep.add(Calendar.HOUR_OF_DAY, b);
-            move_step = 3;
+            move_step = 4;
         } else {
             weatherdata = observations;
             temp_place_colors = place_colors;
